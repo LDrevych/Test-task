@@ -20,6 +20,8 @@
 		F444ED622A98A84200803E71 /* URLComponentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */; };
 		F444ED652A98A86900803E71 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED642A98A86900803E71 /* URLRequestBuilder.swift */; };
 		F444ED682A98A90D00803E71 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED672A98A90D00803E71 /* APIClient.swift */; };
+		F444ED6D2A98AA5F00803E71 /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED6C2A98AA5F00803E71 /* CarouselModel.swift */; };
+		F444ED6F2A98AA7000803E71 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED6E2A98AA7000803E71 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentsBuilder.swift; sourceTree = "<group>"; };
 		F444ED642A98A86900803E71 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
 		F444ED672A98A90D00803E71 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F444ED6C2A98AA5F00803E71 /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		F444ED6E2A98AA7000803E71 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 		F444ED4D2A98A6FF00803E71 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				F444ED6A2A98AA3C00803E71 /* Carousel */,
+				F444ED692A98AA2D00803E71 /* ViewModel */,
 				F444ED3F2A98A6AB00803E71 /* ContentView.swift */,
 			);
 			path = Content;
@@ -182,6 +188,30 @@
 				F444ED672A98A90D00803E71 /* APIClient.swift */,
 			);
 			path = APIClient;
+			sourceTree = "<group>";
+		};
+		F444ED692A98AA2D00803E71 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED6E2A98AA7000803E71 /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F444ED6A2A98AA3C00803E71 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED6B2A98AA4100803E71 /* Model */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		F444ED6B2A98AA4100803E71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED6C2A98AA5F00803E71 /* CarouselModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +290,10 @@
 				F444ED652A98A86900803E71 /* URLRequestBuilder.swift in Sources */,
 				F444ED682A98A90D00803E71 /* APIClient.swift in Sources */,
 				F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */,
+				F444ED6D2A98AA5F00803E71 /* CarouselModel.swift in Sources */,
 				F444ED592A98A7E100803E71 /* NetworkErrors.swift in Sources */,
 				F444ED502A98A74100803E71 /* Config.swift in Sources */,
+				F444ED6F2A98AA7000803E71 /* ContentViewModel.swift in Sources */,
 				F444ED622A98A84200803E71 /* URLComponentsBuilder.swift in Sources */,
 				F444ED5C2A98A7FC00803E71 /* Endpoint.swift in Sources */,
 				F444ED562A98A7CC00803E71 /* Model.swift in Sources */,
