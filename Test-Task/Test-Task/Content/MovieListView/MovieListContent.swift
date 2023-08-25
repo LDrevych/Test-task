@@ -16,8 +16,7 @@ struct MovieListView: View {
         Section {
             ForEach(filteredMovies) { movie in
                 MovieListItem(movie: movie)
-            }
-            .padding(.horizontal, 10)
+            }.padding(.horizontal, 10)
         } header: {
             SearchBar(text: $searchText)
                 .padding(.horizontal)

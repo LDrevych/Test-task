@@ -32,6 +32,7 @@
 		F444ED852A98AECB00803E71 /* MovieListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED842A98AECB00803E71 /* MovieListItem.swift */; };
 		F444ED872A98AEDF00803E71 /* PosterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED862A98AEDF00803E71 /* PosterImage.swift */; };
 		F444ED892A98AFE000803E71 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED882A98AFE000803E71 /* PageControl.swift */; };
+		F444ED8C2A98B08000803E71 /* ScrollableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED8B2A98B08000803E71 /* ScrollableContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		F444ED842A98AECB00803E71 /* MovieListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListItem.swift; sourceTree = "<group>"; };
 		F444ED862A98AEDF00803E71 /* PosterImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImage.swift; sourceTree = "<group>"; };
 		F444ED882A98AFE000803E71 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		F444ED8B2A98B08000803E71 /* ScrollableContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		F444ED4D2A98A6FF00803E71 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				F444ED8A2A98B06900803E71 /* ScrollableContent */,
 				F444ED802A98AE8000803E71 /* MovieListView */,
 				F444ED7D2A98ADFC00803E71 /* EmptyMovieListPlaceholder */,
 				F444ED7A2A98AD4800803E71 /* Search */,
@@ -284,6 +287,14 @@
 			path = MovieListView;
 			sourceTree = "<group>";
 		};
+		F444ED8A2A98B06900803E71 /* ScrollableContent */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED8B2A98B08000803E71 /* ScrollableContent.swift */,
+			);
+			path = ScrollableContent;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -363,6 +374,7 @@
 				F444ED682A98A90D00803E71 /* APIClient.swift in Sources */,
 				F444ED722A98AAAC00803E71 /* TopRatedMovieProvider.swift in Sources */,
 				F444ED772A98AAF300803E71 /* DefaultHeaders+Dictionary.swift in Sources */,
+				F444ED8C2A98B08000803E71 /* ScrollableContent.swift in Sources */,
 				F444ED892A98AFE000803E71 /* PageControl.swift in Sources */,
 				F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */,
 				F444ED742A98AAB800803E71 /* TopRatedMovieEndpoint.swift in Sources */,

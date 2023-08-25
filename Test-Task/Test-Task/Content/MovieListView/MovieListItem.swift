@@ -19,8 +19,7 @@ struct MovieListItem: View {
                     .font(.headline)
                     .lineLimit(2)
             }
-        }
-        .padding(.vertical, 8)
+        }.padding(.vertical, 8)
         .padding(.horizontal, 12)
     }
 }
