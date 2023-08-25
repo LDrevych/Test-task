@@ -16,8 +16,6 @@ P.S. images and list content can be local or loaded from the internet.
 # Expected result
 <img width="256" alt="image" src="https://github.com/LDrevych/Test-task/assets/105346496/209f66de-48c2-446a-a319-b29d7e329d3c">
 
-
-
 # Explanation of requirements from the executive
 
 1.  Images carousel: when user swipe left or right, list content should change accordingly. The images carousel can handle any number of images.
@@ -37,8 +35,11 @@ P.S. Images and list content can be local or loaded from the internet.
     When the user scrolls the content, the search foams to the top. Also, the content is filtered when the user types the title of the movie
 
 # Time 
+
+This time only covers of adding code to the project and also doesn't include time for updating README.md and video recording 
 <img width="1512" alt="Screenshot 2023-08-25 at 13 35 39" src="https://github.com/LDrevych/Test-task/assets/105346496/928ce903-5a00-40b7-9b8e-41a9e57731c8">
 
+Total time base on current time: 1:52 
 
 # Result 
 Due to an issue with Github which can only upload videos less than 10MB records from the Simulator will be published into Google Drive 
