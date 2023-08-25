@@ -13,6 +13,12 @@
 		F444ED452A98A6AD00803E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F444ED442A98A6AD00803E71 /* Preview Assets.xcassets */; };
 		F444ED502A98A74100803E71 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED4F2A98A74100803E71 /* Config.swift */; };
 		F444ED522A98A76B00803E71 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F444ED512A98A76B00803E71 /* Config.xcconfig */; };
+		F444ED562A98A7CC00803E71 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED552A98A7CC00803E71 /* Model.swift */; };
+		F444ED592A98A7E100803E71 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED582A98A7E100803E71 /* NetworkErrors.swift */; };
+		F444ED5C2A98A7FC00803E71 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED5B2A98A7FC00803E71 /* Endpoint.swift */; };
+		F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED5E2A98A81500803E71 /* HTTPMethod.swift */; };
+		F444ED622A98A84200803E71 /* URLComponentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */; };
+		F444ED652A98A86900803E71 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED642A98A86900803E71 /* URLRequestBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		F444ED4F2A98A74100803E71 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		F444ED512A98A76B00803E71 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		F444ED532A98A79F00803E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F444ED552A98A7CC00803E71 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F444ED582A98A7E100803E71 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		F444ED5B2A98A7FC00803E71 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F444ED5E2A98A81500803E71 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentsBuilder.swift; sourceTree = "<group>"; };
+		F444ED642A98A86900803E71 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,12 @@
 		F444ED4B2A98A6F500803E71 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F444ED632A98A85500803E71 /* URLRequestBuilder */,
+				F444ED602A98A82900803E71 /* URLComponentsBuilder */,
+				F444ED5D2A98A80900803E71 /* HTTPMethods */,
+				F444ED5A2A98A7F000803E71 /* Endpoint */,
+				F444ED572A98A7D600803E71 /* NetworkErrors */,
+				F444ED542A98A7B700803E71 /* Model */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -105,6 +123,54 @@
 				F444ED3D2A98A6AB00803E71 /* Test_TaskApp.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F444ED542A98A7B700803E71 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED552A98A7CC00803E71 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F444ED572A98A7D600803E71 /* NetworkErrors */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED582A98A7E100803E71 /* NetworkErrors.swift */,
+			);
+			path = NetworkErrors;
+			sourceTree = "<group>";
+		};
+		F444ED5A2A98A7F000803E71 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED5B2A98A7FC00803E71 /* Endpoint.swift */,
+			);
+			path = Endpoint;
+			sourceTree = "<group>";
+		};
+		F444ED5D2A98A80900803E71 /* HTTPMethods */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED5E2A98A81500803E71 /* HTTPMethod.swift */,
+			);
+			path = HTTPMethods;
+			sourceTree = "<group>";
+		};
+		F444ED602A98A82900803E71 /* URLComponentsBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */,
+			);
+			path = URLComponentsBuilder;
+			sourceTree = "<group>";
+		};
+		F444ED632A98A85500803E71 /* URLRequestBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED642A98A86900803E71 /* URLRequestBuilder.swift */,
+			);
+			path = URLRequestBuilder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +246,13 @@
 			files = (
 				F444ED402A98A6AB00803E71 /* ContentView.swift in Sources */,
 				F444ED3E2A98A6AB00803E71 /* Test_TaskApp.swift in Sources */,
+				F444ED652A98A86900803E71 /* URLRequestBuilder.swift in Sources */,
+				F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */,
+				F444ED592A98A7E100803E71 /* NetworkErrors.swift in Sources */,
 				F444ED502A98A74100803E71 /* Config.swift in Sources */,
+				F444ED622A98A84200803E71 /* URLComponentsBuilder.swift in Sources */,
+				F444ED5C2A98A7FC00803E71 /* Endpoint.swift in Sources */,
+				F444ED562A98A7CC00803E71 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
