@@ -19,6 +19,7 @@
 		F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED5E2A98A81500803E71 /* HTTPMethod.swift */; };
 		F444ED622A98A84200803E71 /* URLComponentsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */; };
 		F444ED652A98A86900803E71 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED642A98A86900803E71 /* URLRequestBuilder.swift */; };
+		F444ED682A98A90D00803E71 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED672A98A90D00803E71 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F444ED5E2A98A81500803E71 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		F444ED612A98A84200803E71 /* URLComponentsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentsBuilder.swift; sourceTree = "<group>"; };
 		F444ED642A98A86900803E71 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		F444ED672A98A90D00803E71 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		F444ED4B2A98A6F500803E71 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F444ED662A98A90400803E71 /* APIClient */,
 				F444ED632A98A85500803E71 /* URLRequestBuilder */,
 				F444ED602A98A82900803E71 /* URLComponentsBuilder */,
 				F444ED5D2A98A80900803E71 /* HTTPMethods */,
@@ -173,6 +176,14 @@
 			path = URLRequestBuilder;
 			sourceTree = "<group>";
 		};
+		F444ED662A98A90400803E71 /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				F444ED672A98A90D00803E71 /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				F444ED402A98A6AB00803E71 /* ContentView.swift in Sources */,
 				F444ED3E2A98A6AB00803E71 /* Test_TaskApp.swift in Sources */,
 				F444ED652A98A86900803E71 /* URLRequestBuilder.swift in Sources */,
+				F444ED682A98A90D00803E71 /* APIClient.swift in Sources */,
 				F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */,
 				F444ED592A98A7E100803E71 /* NetworkErrors.swift in Sources */,
 				F444ED502A98A74100803E71 /* Config.swift in Sources */,
