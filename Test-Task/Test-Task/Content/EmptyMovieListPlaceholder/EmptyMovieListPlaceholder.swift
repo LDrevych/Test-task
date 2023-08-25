@@ -20,7 +20,6 @@ struct EmptyMovieListPlaceholder: View {
     }
 }
 
-
 struct EmptyMovieListPlaceholder_Previews: PreviewProvider {
     static var previews: some View {
         EmptyMovieListPlaceholder(filteredMovies: [])
