@@ -31,6 +31,7 @@
 		F444ED832A98AEA200803E71 /* MovieListContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED822A98AEA200803E71 /* MovieListContent.swift */; };
 		F444ED852A98AECB00803E71 /* MovieListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED842A98AECB00803E71 /* MovieListItem.swift */; };
 		F444ED872A98AEDF00803E71 /* PosterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED862A98AEDF00803E71 /* PosterImage.swift */; };
+		F444ED892A98AFE000803E71 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444ED882A98AFE000803E71 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		F444ED822A98AEA200803E71 /* MovieListContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListContent.swift; sourceTree = "<group>"; };
 		F444ED842A98AECB00803E71 /* MovieListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListItem.swift; sourceTree = "<group>"; };
 		F444ED862A98AEDF00803E71 /* PosterImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImage.swift; sourceTree = "<group>"; };
+		F444ED882A98AFE000803E71 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				F444ED6B2A98AA4100803E71 /* Model */,
+				F444ED882A98AFE000803E71 /* PageControl.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				F444ED682A98A90D00803E71 /* APIClient.swift in Sources */,
 				F444ED722A98AAAC00803E71 /* TopRatedMovieProvider.swift in Sources */,
 				F444ED772A98AAF300803E71 /* DefaultHeaders+Dictionary.swift in Sources */,
+				F444ED892A98AFE000803E71 /* PageControl.swift in Sources */,
 				F444ED5F2A98A81500803E71 /* HTTPMethod.swift in Sources */,
 				F444ED742A98AAB800803E71 /* TopRatedMovieEndpoint.swift in Sources */,
 				F444ED872A98AEDF00803E71 /* PosterImage.swift in Sources */,
