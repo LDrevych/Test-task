@@ -11,7 +11,8 @@ import SwiftUI
 struct Test_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let provider = TopRatedMovieProvider()
+            ContentView(viewModel: ContentViewModel(provider: provider))
         }
     }
 }
