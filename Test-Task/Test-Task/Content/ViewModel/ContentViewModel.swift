@@ -10,16 +10,20 @@ import Foundation
 @MainActor
 final class ContentViewModel: ObservableObject {
     
+    //MARK: - Variables
     @Published var movies: [MovieResult] = []
     @Published var carouselMode: [CarouselModel] = []
     
+    //MARK: - Private Variable
     private var provider: TopRatedMovieProviderProtocol
     
+    //MARK: - Life cycle
     init(provider: TopRatedMovieProviderProtocol) {
         self.provider = provider
         self.carouselMode = generateRandomModel()
     }
     
+    //MARK: - Methods
     func fetchTopRatedMovies(for page: Int) {
         Task {
             do {
@@ -32,6 +36,7 @@ final class ContentViewModel: ObservableObject {
         }
     }
         
+    //MARK: - Private Method
     private func generateRandomModel() -> [CarouselModel] {
         var result: [CarouselModel] = []
         let randomItemCount = Int.random(in: 3...50)

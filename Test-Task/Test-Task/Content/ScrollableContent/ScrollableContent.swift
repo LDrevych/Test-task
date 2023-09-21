@@ -17,11 +17,12 @@ struct ScrollableContent: View {
     
     var body: some View {
         VStack(spacing: 0) {
+            HeaderView(currentPage: $currentPage, carouselModel: carouselModel)
             LazyVStack(alignment: .leading, pinnedViews: [.sectionHeaders]) {
                 MovieListView(searchText: $searchText, filteredMovies: filteredMovies)
                 EmptyMovieListPlaceholder(filteredMovies: filteredMovies)
             }
-        }
+        }.padding(.horizontal, 8)
     }
 }
 
