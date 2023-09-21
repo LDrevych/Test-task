@@ -22,7 +22,7 @@ struct ScrollableContent: View {
                 MovieListView(searchText: $searchText, filteredMovies: filteredMovies)
                 EmptyMovieListPlaceholder(filteredMovies: filteredMovies)
             }
-        }
+        }.padding(.horizontal, 8)
     }
 }
 
